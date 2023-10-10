@@ -8,6 +8,7 @@ class Product{
 }
 
 
+
 const products = [];
 
 fetch('https://fakestoreapi.com/products')
