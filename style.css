@@ -6,12 +6,12 @@
   
     background: -webkit-linear-gradient(-45deg,#582ecc, #3c72e7, #23a6d5, #71aff6)
  }
- /* #main-section {
+ #main-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-} */
+}
 .container {
     margin:10px;
     display: flex;
@@ -21,9 +21,9 @@
 }
 
 .card {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 300px; 
-    height:450px;
+
     margin :6px;
     padding: 15px;
     border: 1px solid #ccc;

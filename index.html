@@ -24,17 +24,20 @@
                 </div>
             </div>
         </nav><br>
-     
-      
-            <div class="container">
-                <form class="form-style" id="usrform">
-                    <textarea  id="postContent" rows="4" cols="50" name="comment" placeholder="Enter text here..."></textarea>
-                    <button type="submit" onclick="post(event)">Post</button>
+        <main id="main-section">
+
+        </main>
+             <div class="container">
+                <form id="usrform">
+                    <input type="text" id="postContent" placeholder="Enter your post content" >
+                    <button onclick="createPost(event)">Post</button>
                 </form>
+                
+                
                 <h2>Products</h2>
                 <div id="cardContainer"></div>
             </div>
-  
+
         <footer class="py-3 my-4" id="footer">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
               <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
@@ -45,7 +48,7 @@
             </ul>
             <p class="text-center text-muted">© 2023 YourSouq, Inc</p>
           </footer>
-          <script src="post.js"></script>
-        <!-- <script src="app.js"></script> -->
+          <!-- <script src="post.js"></script> -->
+          <script src="app.js"></script>
     </body>
 </html>
